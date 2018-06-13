@@ -1,4 +1,80 @@
+body, html {
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+
+}
+
+h1{
+    font-size: 40px;
+    text-shadow:  2px 2px whitesmoke;
+}
+
 .crystal-image{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 6px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.computerNumber, .yourScore, .scoreBoard{
+    height: 200px;
+    width: 200px;
+    border: 1px solid grey;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 20px;
+    text-align: center;
+    margin: 6px;
+    padding: 3px;
+}
+.computerNumber{
+    background-color:  rgb(130, 238, 238);
+}
+
+.yourScore{
+    background-color: rgb(130, 238, 238);
+
+}
+
+.scoreBoard{
+    background-color:  rgb(130, 238, 238);
+}
+
+.crystal-image:hover {
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
+.paragraph{
+
+    font-size: 15px;
+    font-weight: bold;
+    background-color: lightblue;
+    
+    
+
+}
+
+.container-fluid{
+    
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350");
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  
+  
+
+}
+
+
+#crystals{
+    text-align: center;
+    margin-top: 20px;
 }

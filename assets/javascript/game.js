@@ -21,7 +21,7 @@ $(() => {
         // random number for computers number
         computerNumber = random(19, 120);
         // update computer number
-        $(".computerNumber").text(`Match this number to win: ${computerNumber}`);
+        $(".computerNumber").text(`Match this number: ${computerNumber}`);
     }
 
     // random number generator
@@ -90,7 +90,7 @@ $(() => {
             startGame();
         }
         //   scoreboard
-        $(".scoreBoard").text(`Wins: ${wins} losses: ${losses} `)
+        $(".scoreBoard").text(`Wins: ${wins}  losses: ${losses} `)
     }
 
     // click on crystal event

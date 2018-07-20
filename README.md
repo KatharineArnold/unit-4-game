@@ -19,9 +19,10 @@ The number of games won and lost are displayed. The game automatically restarts 
 When the game is restarted, the player will be shown a new random number, all the crystals will now have 4 different hidden values, and the player's total score is reset to 0.
 
 # Technologies Used
-- Jquery for Dom Manipulation
+- Jquery 
 - HTML
 - CSS
+- Bootstrap
 - Javascript
 
 Game design note:
